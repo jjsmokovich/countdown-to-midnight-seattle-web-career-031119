@@ -2,7 +2,7 @@
 def countdown
   sec = 10 
     
-  while 0 < sec
+  while sec > 0
     puts "#{sec} SECONDS!!"
     sec -= 1
     if sec == 0 
