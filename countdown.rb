@@ -3,7 +3,10 @@ def countdown_with_sleep
 end
 
 def countdown
-  count = 0 
+  sec = 0 
     
-    while 
+  while sec < 10
+    puts "#{sec} SECONDS"
+    sec += 1
+  end
 end
