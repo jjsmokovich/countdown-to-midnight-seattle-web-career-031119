@@ -7,6 +7,6 @@ def countdown
     
   while sec < 10
     puts "#{sec} SECONDS"
-    sec += 1
+    sec -= 1
   end
 end
