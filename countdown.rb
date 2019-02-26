@@ -9,4 +9,5 @@ def countdown
     puts "#{sec} SECONDS"
     sec -= 1
   end
+  return "HAPPY NEW YEAR!!!!"
 end
