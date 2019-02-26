@@ -6,7 +6,7 @@ def countdown
     puts "#{sec} SECONDS"
     sec -= 1
     if sec == 0 
-      return "HAPPY NEW YEAR"
+      "HAPPY NEW YEAR"
   end
 end
  
