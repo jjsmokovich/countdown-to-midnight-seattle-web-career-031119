@@ -3,11 +3,12 @@ def countdown_with_sleep
 end
 
 def countdown
-  sec = 0 
+  sec = 10 
     
-  while sec < 10
+  while 0 < sec
     puts "#{sec} SECONDS"
     sec -= 1
+    if sec == 0 
+      return "HAPPY NEW YEAR"
   end
-  return "HAPPY NEW YEAR!!!!"
 end
