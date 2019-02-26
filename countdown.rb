@@ -3,7 +3,7 @@ def countdown
   sec = 10 
     
   while 0 < sec
-    puts "#{sec} SECONDS"
+    puts "#{sec} SECONDS!!"
     sec -= 1
     if sec == 0 
       puts "HAPPY NEW YEAR!"
